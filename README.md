@@ -1,8 +1,8 @@
 # homeword
 ---
-**這是我的無聊網站:https://acoolg.github.io/homeword/**
-備註:跟課程相關
-index.html
+**這是我的無聊網站:https://acoolg.github.io/homeword/**  
+備註:跟課程相關  
+index.html  
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +50,7 @@ index.html
 </html>
 
 ```
-style.css
+style.css  
 ```css
 body {
     font-family: Arial, sans-serif;
