@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T12:57:20.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vEx_l4CcvTHDMWgGlJTw" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T13:01:35.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Hfb3Oz3-MAIBA6agM_7B" version="22.0.8" type="github">
   <diagram name="第 1 页" id="iGNJEo0Rh0ZeZuYiNIxJ">
     <mxGraphModel dx="1621" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,6 +11,9 @@
           <mxGeometry x="200" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-3" target="ZWRc683kzk5WxeZ_rXmY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-3" target="ZWRc683kzk5WxeZ_rXmY-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-3" value="輸入&amp;gt;= 90" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -28,17 +31,27 @@
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-7" value="將輸入轉化成數字" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-13" value="輸出優等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-20" target="ZWRc683kzk5WxeZ_rXmY-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWRc683kzk5WxeZ_rXmY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-20" target="ZWRc683kzk5WxeZ_rXmY-3">
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-20" target="ZWRc683kzk5WxeZ_rXmY-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-20" value="否則 輸入&amp;gt;= 80" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-21" value="輸出甲等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="980" width="120" height="60" as="geometry" />
@@ -46,16 +59,51 @@
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-26" target="ZWRc683kzk5WxeZ_rXmY-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWRc683kzk5WxeZ_rXmY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-230" y="870" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-26" target="ZWRc683kzk5WxeZ_rXmY-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-26" value="否則 輸入&amp;gt;= 70" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="870" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZWRc683kzk5WxeZ_rXmY-27" value="輸出乙等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-30" target="ZWRc683kzk5WxeZ_rXmY-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-30" target="ZWRc683kzk5WxeZ_rXmY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-30" value="否則 輸入&amp;gt;= 60" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-31" value="輸出丙等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-34" target="ZWRc683kzk5WxeZ_rXmY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-34" value="否則" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWRc683kzk5WxeZ_rXmY-35" target="ZWRc683kzk5WxeZ_rXmY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-35" value="輸出丁等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWRc683kzk5WxeZ_rXmY-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
