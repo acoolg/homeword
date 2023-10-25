@@ -2,6 +2,7 @@
 ---
 **這是我的無聊網站:https://acoolg.github.io/homeword/**  
 備註:跟課程相關  
+功課再叫dj的檔案夾裡(我不知道為甚麼會在那裏)  
 index.html  
 ```html
 <!DOCTYPE html>
